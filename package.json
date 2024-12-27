@@ -7,10 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "node --watch src/database/app.js"
   },
   "dependencies": {
     "express": "^4.21.2",
+    "mysql2": "^3.12.0",
     "node": "^23.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
